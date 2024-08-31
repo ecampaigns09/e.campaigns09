@@ -2,23 +2,34 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #fff;
-    background-color: #333;
+    color: #333; /* Dark text color for contrast */
+    background-color: #fff; /* White background for the entire page */
 }
 
 header {
-    background-image: url('sebastien-gabriel-PVBoJEDJu-E-unsplash.jpg'); /* Replace with your image URL */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #fff;
+    position: relative;
+    background-color: #fff; /* Ensure the header background is white */
     padding: 20px;
     text-align: center;
 }
 
+header::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; /* Adjust height as needed */
+    background: url('sebastien-gabriel-PVBoJEDJu-E-unsplash.jpg') repeat-x; /* Wave image for the top */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
 nav {
     width: 100%;
-    background-color: #333;
+    background-color: #333; /* Dark background for the navigation */
 }
 
 .nav-menu {
@@ -70,19 +81,13 @@ nav {
 main {
     padding: 20px;
     text-align: center;
-    color: #fff;
 }
 
 footer {
     position: relative;
-    background-image: url('images/sebastien-gabriel-PVBoJEDJu-E-unsplash.jpg'); /* Replace with your image URL */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #fff;
-    text-align: center;
+    background-color: #fff; /* Ensure the footer background is white */
     padding: 20px;
-    background-color: #333; /* Fallback color */
+    text-align: center;
 }
 
 footer::after {
@@ -93,9 +98,9 @@ footer::after {
     left: 0;
     width: 100%;
     height: 50px; /* Adjust height as needed */
-    background: url('images/wave.png') repeat-x; /* Replace with your wave image URL */
-    background-size: contain;
+    background: url('sebastien-gabriel-PVBoJEDJu-E-unsplash.jpg') repeat-x; /* Wave image for the bottom */
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    z-index: -1;
+    z-index: -1; /* Ensures it appears behind the footer content */
 }
