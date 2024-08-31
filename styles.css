@@ -5,13 +5,12 @@ body {
 }
 
 header {
-    background-image: url('sebastien-gabriel-PVBoJEDJu-E-unsplash.jpg'); /* Path to your image */
-    background-size: cover; /* Ensures the image covers the header area */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents repeating the image */
-    color: #fff; /* Text color */
-    padding: 10px 0; /* Adjust padding as needed */
-}
+    background-image: url('sebastien-gabriel-PVBoJEDJu-E-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 10px 0;
 
 
 nav {
@@ -73,11 +72,11 @@ main {
 }
 
 footer {
-    background-image: url('sebastien-gabriel-PVBoJEDJu-E-unsplash.jpg'); /* Path to your image */
-    background-size: cover; /* Ensures the image covers the footer area */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents repeating the image */
-    color: #fff; /* Text color */
-    text-align: center; /* Centers text */
-    padding: 10px 0; /* Adjust padding as needed */
+    background-image: url('images/sebastien-gabriel-PVBoJEDJu-E-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
